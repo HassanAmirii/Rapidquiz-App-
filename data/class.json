@@ -1,0 +1,27 @@
+{
+  "primarySection": [
+    {
+      "class": "grade 1",
+
+      "teacher": "Mr. Hassan",
+      "students": ["Alice", "Bob", "Charlie"]
+    },
+    {
+      "class": "grade 2",
+      "teacher": "Mr. Zakariyah",
+      "students": ["David", "Eva", "Frank"]
+    },
+    {
+      "class": "grade 3",
+      "teacher": "Mr. Ibrahim",
+      "students": ["Grace", "Hannah", "Ian"]
+    },
+    {
+      "class": "grade 4",
+      "teacher": "Mr. Al-Ameen",
+      "students": ["Jack", "Kathy", "Leo"]
+    }
+  ],
+  "juniorSection": [{}],
+  "secondarySection": [{}]
+}

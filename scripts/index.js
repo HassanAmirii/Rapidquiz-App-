@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const selectClass = document.getElementById("pickClass-btn");
+  const startbutton = document.getElementById("start-btn");
 
   document.addEventListener("click", (e) => {
-    window.location.href = "subject.html";
+    window.location.href = "/pages/class.html";
   });
 });
