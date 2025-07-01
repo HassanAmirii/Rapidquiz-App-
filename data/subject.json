@@ -1,0 +1,59 @@
+{
+  "primarySection": [
+    {
+      "grade 1": [
+        "mathematics",
+        "english",
+        "science",
+        "quantitative",
+        "verbal",
+        "computer",
+        "civic",
+        "cca"
+      ]
+    },
+
+    {
+      "grade 2": [
+        "mathematics",
+        "english",
+        "science",
+        "quantitative",
+        "verbal",
+        "computer",
+        "civic",
+        "cca"
+      ]
+    },
+
+    {
+      "grade 3": [
+        "mathematics",
+        "english",
+        "science",
+        "quantitative",
+        "verbal",
+        "computer",
+        "civic",
+        "cca"
+      ]
+    },
+
+    {
+      "grade 4": [
+        "mathematics",
+        "english",
+        "science",
+        "quantitative",
+        "verbal",
+        "computer",
+        "civic",
+        "cca"
+      ]
+    }
+  ],
+
+  "juniorSection": [{}],
+
+  "secondarySection": [{}]
+}

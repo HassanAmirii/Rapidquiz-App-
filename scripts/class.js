@@ -9,18 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(function (data) {
       const getData = data.primarySection;
-      const refineData = getData
+      const refinedData = getData
         .map(function (classItem) {
-          return `<button> ${classItem.class}</button>`;
+          return `<button id ="${classItem.class}"> ${classItem.class}</button>`;
         })
         .join("");
-      classApp.innerHTML = refineData;
+      classApp.innerHTML = refinedData;
     })
     .catch(function (error) {
       console.error("Error:", error);
     });
 
   document.addEventListener("click", (e) => {
-    window.location.href = "subject.html";
+    let selectedClass = e.target.id;
+    localStorage.setItem("selectedClass", selectedClass);
+    window.location.href = "/pages/subject.html";
   });
 });
