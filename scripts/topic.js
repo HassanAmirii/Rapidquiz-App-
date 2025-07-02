@@ -14,9 +14,17 @@ document.addEventListener("DOMContentLoaded", () => {
       const getTopics = data.primarySection;
       console.log(getTopics);
       const findTopicInList = getTopics.find((topicItem) => {
-        return topicItem[selectedClass][selectedSubject];
+        topicItem[selectedClass];
       });
       console.log(findTopicInList);
+      const topicArray = findTopicInList[selectedClass][selectedSubject];
+      const refinedTopic = topicArray
+        .map((topicItem) => {
+          return `
+          <button id="">${topicItem[selectedSubject]}</button>`;
+        })
+        .join("");
+      topicApp.innerHTML = refinedTopic;
     })
     .catch((error) => {
       console.error("Error:", error);

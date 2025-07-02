@@ -29,7 +29,9 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error:", error);
     });
   document.addEventListener("click", (e) => {
-    let selectedSubject = e.target.id;
+    if (e.target.tagName === "BUTTON") {
+      var selectedSubject = e.target.id;
+    }
     localStorage.setItem("selectedSubject", selectedSubject);
     window.location.href = "/pages/topic.html";
   });
