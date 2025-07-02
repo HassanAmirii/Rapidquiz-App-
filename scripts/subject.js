@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/subject.json")
     .then(function (res) {
       if (!res.ok) {
-        throw new Error(`http: ${res.status}: ${res.text}`);
+        throw new Error(`http: ${res.status}: ${res.statusTexttext}`);
       }
       return res.json();
     })
