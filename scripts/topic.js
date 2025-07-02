@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   topicApp = document.getElementById("topicApp");
+  selectedClass = localStorage.getItem("selectedClass");
   selectedSubject = localStorage.getItem("selectedSubject");
 
   fetch("/data/topic.json")
