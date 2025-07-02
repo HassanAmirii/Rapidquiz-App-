@@ -1,0 +1,372 @@
+{
+  "primarySection": [
+    {
+      "grade1": {
+        "mathematics": [
+          "Counting 1–100",
+          "Number Bonds to 10",
+          "Single‑Digit Addition",
+          "Single‑Digit Subtraction",
+          "Recognising Shapes",
+          "Telling Time (to the hour)",
+          "Comparing Lengths & Weights",
+          "Using Money Coins"
+        ],
+        "english": [
+          "Alphabet Recognition",
+          "Phonemic Awareness",
+          "CVC Word Building",
+          "Simple Sentences",
+          "Picture Reading",
+          "Listening & Speaking Skills",
+          "Story Retelling",
+          "Handwriting Practice"
+        ],
+        "science": [
+          "Living vs Non‑Living Things",
+          "Parts of a Plant",
+          "Animals & Their Homes",
+          "Weather & Seasons",
+          "Five Senses",
+          "Sources of Light",
+          "Simple Machines Around Us",
+          "Water & Its Uses"
+        ],
+        "quantitative": [
+          "Counting Patterns",
+          "Skip Counting (2s & 5s)",
+          "Simple Measurement (Length)",
+          "Number Comparison (<, >)",
+          "Picture Bar Graphs",
+          "One‑Step Word Problems"
+        ],
+        "verbal": [
+          "Following Instructions",
+          "Basic Vocabulary",
+          "Rhymes & Songs",
+          "Oral Storytelling",
+          "Picture Description",
+          "Expressing Feelings"
+        ],
+        "computer": [
+          "Parts of a Computer",
+          "Safe Use of Devices",
+          "Using a Mouse",
+          "Keyboard Awareness",
+          "Turning a PC On/Off",
+          "Educational Games"
+        ],
+        "civic": [
+          "Family Members & Roles",
+          "School Rules",
+          "Community Helpers",
+          "Respect & Courtesy",
+          "National Flag Awareness"
+        ],
+        "cca": [
+          "Colour Mixing",
+          "Paper Folding Crafts",
+          "Singing Folk Songs",
+          "Simple Dance Steps",
+          "Basic Ball Games",
+          "Drawing Shapes"
+        ]
+      }
+    },
+    {
+      "grade2": {
+        "mathematics": [
+          "Addition & Subtraction to 1000",
+          "Intro to Multiplication (2, 3, 5)",
+          "Even & Odd Numbers",
+          "Telling Time (to the half‑hour)",
+          "Place Value (H, T, O)",
+          "Simple Fractions (½, ¼)",
+          "Counting Money",
+          "Measuring Length with Rulers"
+        ],
+        "english": [
+          "Grammar Basics (Nouns, Verbs)",
+          "Reading Comprehension Passages",
+          "Sentence Building",
+          "Creative Writing (Short Stories)",
+          "Phonics Blends & Digraphs",
+          "Vocabulary Building",
+          "Capitalisation & Punctuation",
+          "Listening Comprehension"
+        ],
+        "science": [
+          "Plant Life Cycle",
+          "Animal Life Cycle",
+          "Habitats",
+          "States of Matter",
+          "Earth & Space (Sun, Moon)",
+          "Intro to Water Cycle",
+          "Magnets",
+          "Healthy Habits"
+        ],
+        "quantitative": [
+          "Simple Bar Graphs",
+          "Pictograms",
+          "Two‑Step Word Problems",
+          "Skip Counting in 10s",
+          "Data Interpretation",
+          "Basic Probability (Certain/Impossible)"
+        ],
+        "verbal": [
+          "Story Analysis (B‑M‑E)",
+          "Describing Characters",
+          "Listening & Summarising",
+          "Reciting Poems",
+          "Reading Aloud Fluently"
+        ],
+        "computer": [
+          "Word Processing Basics",
+          "Typing Home Row Keys",
+          "Internet Safety",
+          "Opening & Saving Files",
+          "Using Drawing Software",
+          "Intro to Search Engines"
+        ],
+        "civic": [
+          "Community & Citizenship",
+          "National Symbols",
+          "Traffic Rules",
+          "Keeping Environment Clean",
+          "Rights & Responsibilities",
+          "Good Manners"
+        ],
+        "cca": [
+          "Drama & Role Play",
+          "Team Sports Basics",
+          "Recorder / Keyboard Music",
+          "Fabric Crafts",
+          "Clay Modelling",
+          "Folk Dance"
+        ]
+      }
+    },
+    {
+      "grade3": {
+        "mathematics": [
+          "Multiplication Tables 2–10",
+          "Basic Division Concepts",
+          "Fractions (⅓, ⅙)",
+          "Measurement (Mass & Capacity)",
+          "Perimeter of Shapes",
+          "Bar Graph Data Handling",
+          "Introduction to Angles",
+          "Three‑Step Word Problems"
+        ],
+        "english": [
+          "Paragraph Writing",
+          "Parts of Speech",
+          "Reading Fluency & Expression",
+          "Grammar & Punctuation",
+          "Book Reports",
+          "Synonyms & Antonyms",
+          "Friendly Letter Writing",
+          "Idioms & Proverbs"
+        ],
+        "science": [
+          "Forces & Motion",
+          "Simple Machines (Lever, Pulley)",
+          "Energy Sources",
+          "Human Body Systems",
+          "Weather Patterns",
+          "Soil Types",
+          "Plant & Animal Adaptations",
+          "Simple Chemical Reactions"
+        ],
+        "quantitative": [
+          "Tables & Charts",
+          "Intro to Average (Mean)",
+          "Money Word Problems",
+          "Interpreting Data",
+          "Number Patterns",
+          "Estimation & Rounding"
+        ],
+        "verbal": [
+          "Debate Basics",
+          "Critical Thinking Questions",
+          "Reading for Inference",
+          "Story Mapping",
+          "Public Speaking Skills"
+        ],
+        "computer": [
+          "Spreadsheet Basics",
+          "Formatting Cells",
+          "Intro to Scratch Coding",
+          "Using Presentation Software",
+          "Online Research Skills",
+          "Cyberbullying Awareness"
+        ],
+        "civic": [
+          "Local Government Structure",
+          "Rules & Laws",
+          "Voting & Elections (Intro)",
+          "Human Rights Basics",
+          "Cultural Diversity",
+          "Peaceful Conflict Resolution"
+        ],
+        "cca": [
+          "Art Techniques (Shading)",
+          "Sports Activities (Athletics)",
+          "Choir & Harmonisation",
+          "Photography Basics",
+          "Creative Writing",
+          "Drama Production"
+        ]
+      }
+    },
+    {
+      "grade4": {
+        "mathematics": [
+          "Long Multiplication & Division",
+          "Decimals & Place Value",
+          "Fractions ↔ Decimals Conversion",
+          "Geometry (Lines & Angles)",
+          "Area & Perimeter",
+          "Statistics (Mean, Mode)",
+          "Introduction to Ratios",
+          "Probability Basics"
+        ],
+        "english": [
+          "Essay Writing (Narrative, Expository)",
+          "Literature Appreciation (Folktales, Fables)",
+          "Advanced Grammar (Tenses, Clauses)",
+          "Public Speaking & Persuasion",
+          "Editing & Proof‑reading",
+          "Figurative Language",
+          "Advanced Comprehension Strategies",
+          "Research & Presentation Skills"
+        ],
+        "science": [
+          "Ecosystems & Food Chains",
+          "Electricity & Circuits",
+          "Earth Science (Rocks, Minerals)",
+          "Detailed Water Cycle",
+          "Light & Shadows",
+          "Heat Transfer",
+          "Simple Machines Projects",
+          "Conservation of Resources"
+        ],
+        "quantitative": [
+          "Statistics (Median, Mode)",
+          "Multi‑Step Problem Solving",
+          "Ratio & Proportion",
+          "Graph Interpretation",
+          "Spatial Reasoning",
+          "Time & Distance Problems"
+        ],
+        "verbal": [
+          "Advanced Comprehension Strategies",
+          "Critical Analysis of Texts",
+          "Evaluating Arguments",
+          "Oral Presentation Skills",
+          "Listening for Bias"
+        ],
+        "computer": [
+          "Intermediate Coding (Scratch/Blockly)",
+          "Creating Slide Shows",
+          "Safe Online Communication",
+          "Graphics & Design Basics",
+          "Intro to Databases",
+          "Keyboarding Speed Practice"
+        ],
+        "civic": [
+          "Understanding the Constitution",
+          "Democracy & Governance",
+          "Civic Engagement Projects",
+          "Environmental Stewardship",
+          "Conflict Resolution",
+          "Gender Equality"
+        ],
+        "cca": [
+          "Creative Writing Workshop",
+          "Team Sports (Soccer, Basketball)",
+          "Art & Design Projects",
+          "Music Theory & Instrument Practice",
+          "Dance Choreography",
+          "Drama Script Writing"
+        ]
+      }
+    },
+    {
+      "grade5": {
+        "mathematics": [
+          "Pre‑Algebra Concepts",
+          "Geometry (Triangles, Circles)",
+          "Fractions, Decimals & Percentages",
+          "Data Analysis & Probability",
+          "Integers & Number Lines",
+          "Coordinate Plane Basics",
+          "Rate & Proportion Word Problems",
+          "Simple Equations"
+        ],
+        "english": [
+          "Research & Referencing",
+          "Literary Analysis (Themes, Motifs)",
+          "Advanced Persuasive Writing",
+          "Speech Writing & Delivery",
+          "Summarising & Paraphrasing",
+          "Grammar (Active & Passive Voice)",
+          "Reading for Argument",
+          "Vocabulary (Roots & Affixes)"
+        ],
+        "science": [
+          "Human Anatomy & Physiology",
+          "Chemical Reactions & Equations",
+          "Physics (Force, Energy)",
+          "Environmental Science & Climate Change",
+          "Space Exploration",
+          "Genetics Basics",
+          "Electricity & Magnetism",
+          "Scientific Method Projects"
+        ],
+        "quantitative": [
+          "Advanced Data Interpretation",
+          "Simple Event Probability",
+          "Algebraic Thinking",
+          "Graphing on Coordinate Plane",
+          "Problem Solving Strategies",
+          "Logical Reasoning Puzzles"
+        ],
+        "verbal": [
+          "Advanced Reading Comprehension",
+          "Debate & Discussion",
+          "Persuasive Speeches",
+          "Analyzing Bias & Propaganda",
+          "Listening for Detail",
+          "Vocabulary in Context"
+        ],
+        "computer": [
+          "Intro to Python (Blocks to Text)",
+          "Digital Citizenship & Ethics",
+          "Multimedia Projects",
+          "Introduction to HTML/CSS",
+          "Collaborative Online Tools",
+          "Data Representation (Binary)"
+        ],
+        "civic": [
+          "National Identity & Unity",
+          "Leadership & Responsibility",
+          "Global Citizenship",
+          "Rights of Children",
+          "Sustainable Development Goals",
+          "Entrepreneurship Basics"
+        ],
+        "cca": [
+          "Drama Production",
+          "Sports Competition",
+          "Music Performance",
+          "Visual Arts (Painting, Sculpture)",
+          "School Newspaper",
+          "Community Service Projects"
+        ]
+      }
+    }
+  ],
+  "juniorSection": [{}],
+  "secondarySection": [{}]
+}
