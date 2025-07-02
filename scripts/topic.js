@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  topicApp = document.getElementById("topicApp");
-  selectedClass = localStorage.getItem("selectedClass");
-  selectedSubject = localStorage.getItem("selectedSubject");
+  const topicApp = document.getElementById("topicApp");
+  const selectedClass = localStorage.getItem("selectedClass");
+  const selectedSubject = localStorage.getItem("selectedSubject");
 
   fetch("/data/topic.json")
     .then((response) => {
@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
+      const getTopics = data.primarySection;
+      console.log(getTopics);
     })
     .catch((error) => {
       console.error("Error:", error);
