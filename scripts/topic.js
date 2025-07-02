@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       const getTopics = data.primarySection;
       console.log(getTopics);
+      const findTopicInList = getTopics.find((topicItem) => {
+        return topicItem[selectedClass][selectedSubject];
+      });
+      console.log(findTopicInList);
     })
     .catch((error) => {
       console.error("Error:", error);

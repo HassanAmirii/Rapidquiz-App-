@@ -1,7 +1,7 @@
 {
   "primarySection": [
     {
-      "grade1": {
+      "grade 1": {
         "mathematics": [
           "Counting 1–100",
           "Number Bonds to 10",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "grade2": {
+      "grade 2": {
         "mathematics": [
           "Addition & Subtraction to 1000",
           "Intro to Multiplication (2, 3, 5)",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "grade3": {
+      "grade 3": {
         "mathematics": [
           "Multiplication Tables 2–10",
           "Basic Division Concepts",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "grade4": {
+      "grade 4": {
         "mathematics": [
           "Long Multiplication & Division",
           "Decimals & Place Value",
@@ -293,7 +293,7 @@
       }
     },
     {
-      "grade5": {
+      "grade 5": {
         "mathematics": [
           "Pre‑Algebra Concepts",
           "Geometry (Triangles, Circles)",
