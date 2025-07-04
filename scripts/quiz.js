@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!res.ok) {
         throw new Error(`http error: ${res.status}`);
       }
-
       return res.json();
     })
 
