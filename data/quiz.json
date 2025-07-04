@@ -1,0 +1,115 @@
+{
+  "primarySection": {
+    "grade 1": {
+      "mathematics": {
+        "Telling Time (to the hour)": [
+          {
+            "question": "What time is it when the short hand is on 3 and the long hand is on 12?",
+            "options": ["3 o'clock", "12 o'clock", "6 o'clock", "9 o'clock"],
+            "answer": "3 o'clock"
+          },
+          {
+            "question": "When the clock shows 6:00, where is the short hand?",
+            "options": ["At 12", "At 6", "At 3", "At 9"],
+            "answer": "At 6"
+          },
+          {
+            "question": "The long hand points to 12 and the short hand to 7. What time is it?",
+            "options": ["7 o'clock", "12 o'clock", "5 o'clock", "6 o'clock"],
+            "answer": "7 o'clock"
+          },
+          {
+            "question": "What time is it when the short hand is on 9?",
+            "options": ["9 o'clock", "3 o'clock", "6 o'clock", "12 o'clock"],
+            "answer": "9 o'clock"
+          },
+          {
+            "question": "The clock shows 10 o'clock. Where is the long hand?",
+            "options": ["At 6", "At 10", "At 12", "At 3"],
+            "answer": "At 12"
+          },
+          {
+            "question": "What time is it if both hands are at 12?",
+            "options": ["12 o'clock", "6 o'clock", "3 o'clock", "9 o'clock"],
+            "answer": "12 o'clock"
+          },
+          {
+            "question": "If it is 2 o'clock, where is the short hand?",
+            "options": ["At 2", "At 12", "At 6", "At 3"],
+            "answer": "At 2"
+          },
+          {
+            "question": "The clock shows 8 o'clock. What number is the short hand on?",
+            "options": ["8", "12", "6", "2"],
+            "answer": "8"
+          },
+          {
+            "question": "Which of these shows 5 o'clock?",
+            "options": [
+              "Short hand on 5, long hand on 12",
+              "Short hand on 12, long hand on 6",
+              "Both hands on 5",
+              "Short hand on 6, long hand on 5"
+            ],
+            "answer": "Short hand on 5, long hand on 12"
+          },
+          {
+            "question": "If the short hand is on 4 and the long hand is on 12, what time is it?",
+            "options": ["4 o'clock", "12 o'clock", "3 o'clock", "2 o'clock"],
+            "answer": "4 o'clock"
+          },
+          {
+            "question": "What time is halfway between 2 o’clock and 4 o’clock?",
+            "options": ["3 o'clock", "12 o'clock", "6 o'clock", "2:30"],
+            "answer": "3 o'clock"
+          },
+          {
+            "question": "The teacher says it’s 11 o'clock. Where is the short hand?",
+            "options": ["11", "10", "12", "1"],
+            "answer": "11"
+          },
+          {
+            "question": "At 1 o'clock, where is the short hand pointing?",
+            "options": ["1", "11", "12", "3"],
+            "answer": "1"
+          },
+          {
+            "question": "If the clock says 6 o'clock, where is the long hand?",
+            "options": ["12", "6", "3", "9"],
+            "answer": "12"
+          },
+          {
+            "question": "What time is bedtime if the clock says 8 o'clock?",
+            "options": ["8 o'clock", "6 o'clock", "9 o'clock", "7 o'clock"],
+            "answer": "8 o'clock"
+          },
+          {
+            "question": "The clock in class shows 12 o'clock. What part of the day is this?",
+            "options": ["Noon", "Night", "Morning", "Midnight"],
+            "answer": "Noon"
+          },
+          {
+            "question": "Which time comes after 10 o'clock?",
+            "options": ["11 o'clock", "9 o'clock", "8 o'clock", "12 o'clock"],
+            "answer": "11 o'clock"
+          },
+          {
+            "question": "If it’s 7 o'clock now, what time will it be in one hour?",
+            "options": ["8 o'clock", "6 o'clock", "9 o'clock", "10 o'clock"],
+            "answer": "8 o'clock"
+          },
+          {
+            "question": "What time do you usually eat lunch?",
+            "options": ["1 o'clock", "8 o'clock", "10 o'clock", "4 o'clock"],
+            "answer": "1 o'clock"
+          },
+          {
+            "question": "If the clock shows 3 o’clock, where is the short hand?",
+            "options": ["3", "12", "6", "9"],
+            "answer": "3"
+          }
+        ]
+      }
+    }
+  }
+}
