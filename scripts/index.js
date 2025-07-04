@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const startbutton = document.getElementById("start-btn");
+  const startButton = document.getElementById("start-btn");
 
-  document.addEventListener("click", (e) => {
-    if (e.target.tagName === "BUTTON" && e.target.id === "start-btn") {
+  if (startButton) {
+    startButton.addEventListener("click", () => {
+      // redirect to class selection page
       window.location.href = "/pages/class.html";
-    }
-  });
+    });
+  }
 });

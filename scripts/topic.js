@@ -6,27 +6,45 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/topic.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error(`http error: ${response.statusText}`);
+        throw new Error(`http error: ${response.status}`);
       }
       return response.json();
     })
     .then((data) => {
       const getTopics = data.primarySection;
-      console.log(getTopics);
-      const findTopicInList = getTopics.find((topicItem) => {
-        topicItem[selectedClass];
-      });
-      console.log(findTopicInList);
-      const topicArray = findTopicInList[selectedClass][selectedSubject];
-      const refinedTopic = topicArray
-        .map((topicItem) => {
-          return `
-          <button id="">${topicItem[selectedSubject]}</button>`;
-        })
-        .join("");
-      topicApp.innerHTML = refinedTopic;
+      if (selectedClass && selectedSubject) {
+        if (getTopics) {
+          console.log(getTopics);
+          var findTopicInList = getTopics.find((topicItem) => {
+            return topicItem[selectedClass];
+          });
+        } else {
+          console.log("cant find get topics object ");
+        }
+
+        console.log(findTopicInList);
+        const topicArray = findTopicInList[selectedClass][selectedSubject];
+        console.log(topicArray);
+        var refinedTopic = topicArray
+          .map((topicItem) => {
+            return `
+          <button>${topicItem}</button>`;
+          })
+          .join("");
+      } else {
+        console.log("selected class or selected subject doesnt exist");
+      }
+
+      if (refinedTopic) {
+        topicApp.innerHTML = refinedTopic;
+      } else {
+        topicApp.innerHTML = `<p>sorry cant find topics </p>`;
+      }
     })
     .catch((error) => {
       console.error("Error:", error);
     });
+  document.addEventListener("click", (e) => {
+    const selectedTopic = e.target.id;
+  });
 });
