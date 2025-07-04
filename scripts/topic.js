@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         var refinedTopic = topicArray
           .map((topicItem) => {
             return `
-          <button>${topicItem}</button>`;
+          <button id="${topicItem}">${topicItem}</button>`;
           })
           .join("");
       } else {
@@ -46,5 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   document.addEventListener("click", (e) => {
     const selectedTopic = e.target.id;
+    localStorage.setItem("selectedTopic", selectedTopic);
+    window.location.href = "/pages/quiz.html";
   });
 });

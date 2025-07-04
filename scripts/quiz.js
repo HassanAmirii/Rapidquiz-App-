@@ -11,7 +11,27 @@
 // Submit button → process result
 
 document.addEventListener("DOMContentLoaded", () => {
-  const selectedClass = localStorage.getItem("selectedClass");
+  // Load the selected topics from localStorage
+
   const selectedSubject = localStorage.getItem("selectedSubject");
+  const selectedClass = localStorage.getItem("selectedClass");
   const selectedTopic = localStorage.getItem("selectedTopic");
+
+  // Fetch related questions
+
+  fetch("/data/quiz.json")
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`http error: ${res.status}`);
+      }
+
+      return res.json();
+    })
+
+    .then((data) => {
+      console.log(data);
+    })
+    .catch((error) => {
+      console.error("http error:", error);
+    });
 });
