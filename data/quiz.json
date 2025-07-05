@@ -1,8 +1,8 @@
 {
   "primarySection": {
-    "grade 1": {
+    "grade_1": {
       "mathematics": {
-        "Telling Time (to the hour)": [
+        "telling_time_to_the_hour": [
           {
             "question": "What time is it when the short hand is on 3 and the long hand is on 12?",
             "options": ["3 o'clock", "12 o'clock", "6 o'clock", "9 o'clock"],

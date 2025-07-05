@@ -1,7 +1,7 @@
 {
   "primarySection": [
     {
-      "grade 1": [
+      "grade_1": [
         "mathematics",
         "english",
         "science",
@@ -14,7 +14,7 @@
     },
 
     {
-      "grade 2": [
+      "grade_2": [
         "mathematics",
         "english",
         "science",
@@ -27,7 +27,7 @@
     },
 
     {
-      "grade 3": [
+      "grade_3": [
         "mathematics",
         "english",
         "science",
@@ -40,7 +40,7 @@
     },
 
     {
-      "grade 4": [
+      "grade_4": [
         "mathematics",
         "english",
         "science",

@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const selectedSubject = localStorage.getItem("selectedSubject");
   const selectedClass = localStorage.getItem("selectedClass");
   const selectedTopic = localStorage.getItem("selectedTopic");
+  const quiApp = document.getElementById("quiApp");
+
+  console.log(selectedClass, selectedSubject, selectedTopic);
 
   // Fetch related questions
 
@@ -28,7 +31,21 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     .then((data) => {
+      /* Shuffle and display with options
+       we need to put the list of questions in json in a single var
+        so we have to break down the object to  get :  "Telling Time (to the hour)": [......list of questions ...] in "primarySection": {
+    "grade 1": {
+      "mathematics": {
+        "Telling Time (to the hour)": []
+        */
       console.log(data);
+
+      const getTopicListFromObject =
+        data.primarySection[selectedClass][selectedSubject];
+      console.log(getTopicListFromObject);
+
+      const getDesiredTopic = getTopicListFromObject[selectedTopic];
+      console.log(getDesiredTopic);
     })
     .catch((error) => {
       console.error("http error:", error);
