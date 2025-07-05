@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const getDesiredTopic = getTopicListFromObject[selectedTopic];
       console.log(getDesiredTopic);
+
+      let questionIndex = 0;
+      const questions = getDesiredTopic[questionIndex];
+      console.log(questions);
     })
     .catch((error) => {
       console.error("http error:", error);
