@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const selectedSubject = localStorage.getItem("selectedSubject");
   const selectedClass = localStorage.getItem("selectedClass");
   const selectedTopic = localStorage.getItem("selectedTopic");
-  const quiApp = document.getElementById("quiApp");
+  const quizApp = document.getElementById("quizApp");
 
   console.log(selectedClass, selectedSubject, selectedTopic);
 
@@ -47,9 +47,37 @@ document.addEventListener("DOMContentLoaded", () => {
       const getDesiredTopic = getTopicListFromObject[selectedTopic];
       console.log(getDesiredTopic);
 
+      // Shuffle and display with options
       let questionIndex = 0;
-      const questions = getDesiredTopic[questionIndex];
-      console.log(questions);
+      let questionObj = getDesiredTopic[questionIndex];
+      console.log(questionObj);
+
+      let question = questionObj.question;
+      let questionOptions = questionObj.options;
+
+      console.log(question);
+      console.log(questionOptions);
+      let getOptionArr = questionOptions
+        .map((optionItem) => {
+          return `<button> ${optionItem}</button>`;
+        })
+        .join("");
+      quizApp.innerHTML = `<p>question ${questionIndex} </p>
+      <p> ${question}</p>
+      
+      <p>${getOptionArr}</p>
+      `;
+
+      document.addEventListener("click", function (e) {
+        if (e.target.tagName === "BUTTON") {
+          questionIndex++;
+          quizApp.innerHTML = `<p>question ${questionIndex} </p>
+      <p> ${question}</p>
+      
+      <p>${getOptionArr}</p>
+      `;
+        }
+      });
     })
     .catch((error) => {
       console.error("http error:", error);
